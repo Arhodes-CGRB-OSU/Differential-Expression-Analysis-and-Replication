@@ -1,9 +1,5 @@
 ---
-title: "MSU - Week 3: Statistical models of Differential Expression"
-date: "08/15/2015"
-output: html_document
-layout: topic
-bibliography: references.bib
+This first block of text is for the creation of markdown text format to create these pages.
 ---
 
 ```{r, echo=FALSE}
