@@ -374,8 +374,3 @@ In a nicely designed [48-replicate experiment](http://arxiv.org/pdf/1505.00588.p
 ## Take-Home message
 The underlying **read-count distribution for a gene is a fundamental property of RNA-seq data** but without a large number of measurements/replicates it is not possible to identify the form of this distribution unambiguously. **Fewer replicates means the true distribution of read counts for an individual gene is unclear.** Many DGE tools make strong assumptions about the form of this underlying distribution, thus having an unreliable distribution can impact on their ability to correctly identify significantly DE genes.  
 
-# References
-
-```{r writebib, echo=FALSE, message=FALSE, warning=FALSE}
-write.bibtex(file="references.bib")
-```
