@@ -13,6 +13,15 @@ options("citation_format" = "pandoc")
 Let's start by loading the filtered data and the required libraries:
 ```{r load}
 
+#If DESeq2, edgeR and limma are not already installed, uncomment and run the next few lines
+#source('http://bioconductor.org/biocLite.R')
+#biocLite("DESeq2")
+#biocLite("edgeR")
+#biocLite("limma"
+```
+[Here is a graphic to show you where to look for installed packages on RStudio](https://raw.githubusercontent.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/master/whatpackages.png)
+
+```
 # Load required libraries 
 library(DESeq2)
 library(edgeR)
