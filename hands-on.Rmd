@@ -344,6 +344,9 @@ design <- model.matrix(~ pData(bottomly.2reps)$strain)
 # Usual limma pipeline
 fit.voom <- lmFit(v.2reps, design)
 fit.voom <- eBayes(fit.voom)
+# You may see an error message, you may ignore this:
+# Warning message:
+# Zero sample variances detected, have been offset
 
 voom_results_2reps <- topTable(fit.voom, coef=2,  adjust="BH", number = nrow(exprs(bottomly.2reps)))
 voom_results_2reps$threshold <- as.logical(voom_results_2reps$adj.P.Val < p.threshold)
