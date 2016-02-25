@@ -1,6 +1,7 @@
 ```{r, echo=FALSE}
 #+ This first block of text is for the creation of markdown text format to create these pages (not really part of what we need to do for the program).
 
+install.packages("knitcitations")
 library(knitcitations)
 cleanbib()
 options("citation_format" = "pandoc")
