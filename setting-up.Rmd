@@ -10,6 +10,10 @@ Script used to generate the bottomly_eset.RData
 
 ```{r setup}
 
+# Set your working directory to the location of the project, for example if I put a directory on my desktop called "Overdispersion"
+setwd("~/Desktop/Overdispersion")
+download.file("https://raw.githubusercontent.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/gh-pages/bottomly_eset.RData")
+
 # Load data from eset from ReCount
 load('bottomly_eset.RData')
 
