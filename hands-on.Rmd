@@ -216,7 +216,8 @@ head(sig.edgeR,20)
 ```
 #Your output should look like this:
 > head(sig.edgeR,20)
-      [,1]
+-----   ----
+        [,1]
  [1,]    0
  [2,]    0
  [3,]    0
@@ -237,6 +238,7 @@ head(sig.edgeR,20)
 [18,]    0
 [19,]    0
 [20,]    0
+-----  ----
 
 Note that the 17th value gives us our first "1".  This is the first upregulated gene.
 Let's select out our upgregulated gene and look at the top of the list.
