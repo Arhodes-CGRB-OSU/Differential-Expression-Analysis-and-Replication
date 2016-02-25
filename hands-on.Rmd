@@ -205,8 +205,16 @@ lrt.edgeR <- glmLRT(fit.edgeR, contrast=contrasts.edgeR)
 
 # Access results tables
 edgeR_results <- lrt.edgeR$table
+View(edgeR_results)
+```
+Pause here and look at how the edgeR results are laid out -- it opens above the interactive console -- in R studio this is a cool way to look at  your data in process.  You can also open this dataframe viewer by clicking on edgeR_results in the upper right pane by selecting the "environment" tab.  This table will not be saved as output unless you write it to a file, so check that it is not in your files down below.
+[Here is a screenshot for reference](https://raw.githubusercontent.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/master/dataframeviewer.png)
+```
+# This is an object, so the results are displayed above the console.  Objects are 
 sig.edgeR <- decideTestsDGE(lrt.edgeR, adjust.method="BH", p.value = p.threshold)
 genes.edgeR <- row.names(edgeR_results)[which(sig.edgeR == 1)]
+(genes.edgeR)
+#This is the list of differentialy expressed genes
 
 ```
 
