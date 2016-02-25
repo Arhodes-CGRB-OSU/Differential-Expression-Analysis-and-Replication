@@ -238,10 +238,15 @@ head(sig.edgeR,20)
 #[20,]    0
 
 Note that the 17th value gives us our first "1".  This is the first upregulated gene.
+```
 Let's select out our upgregulated gene and look at the top of the list.
 ```
 genes.edgeR <- row.names(edgeR_results)[which(sig.edgeR == 1)]
 head(genes.edgeR)
+
+# [1] "ENSMUSG00000000184" "ENSMUSG00000000276" "ENSMUSG00000000296" "ENSMUSG00000000326"
+# [5] "ENSMUSG00000000402" "ENSMUSG00000000628"
+
 # This is the list of differentialy expressed (upregulated) genes
 ```
 #### Did our 17th value from the data frame match the first item on the list?
