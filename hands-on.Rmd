@@ -215,7 +215,8 @@ sig.edgeR <- decideTestsDGE(lrt.edgeR, adjust.method="BH", p.value = p.threshold
 head(sig.edgeR,20)
 ```
 #Your output should look like this:
-> head(sig.edgeR,20)
+
+head(sig.edgeR,20)
 -----   ----
         [,1]
  [1,]    0
