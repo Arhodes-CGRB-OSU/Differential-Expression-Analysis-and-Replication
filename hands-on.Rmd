@@ -243,7 +243,7 @@ Let's select out our upgregulated gene and look at the top of the list.
 ```
 genes.edgeR <- row.names(edgeR_results)[which(sig.edgeR == 1)]
 head(genes.edgeR)
-# This is the list of differentialy expressed genes
+# This is the list of differentialy expressed (upregulated) genes
 ```
 #### Did our 17th value from the data frame match the first item on the list?
 #### How would we pull out the downregulated genes?
