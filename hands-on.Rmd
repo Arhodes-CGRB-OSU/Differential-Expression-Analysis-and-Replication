@@ -213,33 +213,29 @@ Pause here and look at how the edgeR results are laid out -- it opens above the 
 # Next, create a test matrix based on your threshold p.value 
 sig.edgeR <- decideTestsDGE(lrt.edgeR, adjust.method="BH", p.value = p.threshold)
 head(sig.edgeR,20)
-```
 #Your output should look like this:
-
-head(sig.edgeR,20)
------   ----
-        [,1]
- [1,]    0
- [2,]    0
- [3,]    0
- [4,]    0
- [5,]   -1
- [6,]    0
- [7,]    0
- [8,]    0
- [9,]    0
-[10,]    0
-[11,]    0
-[12,]    0
-[13,]    0
-[14,]    0
-[15,]    0
-[16,]    0
-[17,]    1
-[18,]    0
-[19,]    0
-[20,]    0
------  ----
+#head(sig.edgeR,20)
+#       [,1]
+# [1,]    0
+# [2,]    0
+# [3,]    0
+# [4,]    0
+# [5,]   -1
+# [6,]    0
+# [7,]    0
+# [8,]    0
+# [9,]    0
+#[10,]    0
+#[11,]    0
+#[12,]    0
+#[13,]    0
+#[14,]    0
+#[15,]    0
+#[16,]    0
+#[17,]    1
+#[18,]    0
+#[19,]    0
+#[20,]    0
 
 Note that the 17th value gives us our first "1".  This is the first upregulated gene.
 Let's select out our upgregulated gene and look at the top of the list.
