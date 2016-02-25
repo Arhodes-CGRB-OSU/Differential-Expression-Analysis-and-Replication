@@ -44,3 +44,11 @@ rm(reps)
 rm(C57)
 rm(DBA)
 ```
+You should now see three objects in the environmental pane at the top right cornder of your screen:
+[Check this image](https://raw.githubusercontent.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/master/three_sets_data.png)
+
+
+
+## Start 
+
+https://github.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/blob/gh-pages/setting-up.Rmd
