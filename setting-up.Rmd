@@ -49,6 +49,6 @@ You should now see three objects in the environmental pane at the top right corn
 
 
 
-## Start 
+## Proceed to the Next Page
 
-https://github.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/blob/gh-pages/setting-up.Rmd
+https://github.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/blob/gh-pages/hands-on.Rmd
