@@ -23,4 +23,4 @@ In this module, learners will use [R Statistical Software](https://www.r-project
 
 ## Start here
 
-https://raw.githubusercontent.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/gh-pages/setting-up.Rmd
+https://github.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/blob/gh-pages/setting-up.Rmd
