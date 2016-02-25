@@ -238,7 +238,7 @@ head(sig.edgeR,20)
 #[19,]    0
 #[20,]    0
 
-Note that the 17th value gives us our first "1".  This is the first upregulated gene.
+#Note that the 17th value gives us our first "1".  This is the first upregulated gene.
 ```
 Let's select out our upgregulated gene and look at the top of the list.
 ```
