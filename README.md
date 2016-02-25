@@ -21,6 +21,6 @@ In this module, learners will use [R Statistical Software](https://www.r-project
 > * familariizing with tools for DE analysis in R
 > * understanding the importance of having replicates in a RNA-Seq study
 
->## Start here
+## Start here
 
-https://raw.githubusercontent.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/gh-pages/setting-up.Rmd
+https://raw.githubusercontent.com/Arhodes-CGRB-OSU/Differential-Expression-Analysis-and-Replication/gh-pages/setting-up.md
