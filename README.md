@@ -1,5 +1,5 @@
-# DE analysis module for Week3
-
+# Differential Expression Analysis and Replication
+----------------------------------------------------
 
 For RNA-seq data, the strategy taken is to count the number of reads that fall into annotated genes and to perform statistical analysis on the table of counts to discover quantitative changes in expression levels between experimental groups. Easy, right? Not, exactly.
 
